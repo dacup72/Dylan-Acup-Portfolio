@@ -22,6 +22,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -73,7 +74,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">About Me</h2>
+          <h2 class="section-heading"><u>About Me</u></h2>
           <br>
           <br>
         </div>
@@ -101,7 +102,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Skills</h2>
+          <h2 class="section-heading"><u>Skills</u></h2>
           <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
@@ -164,108 +165,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Portfolio</h2>
+          <h2 class="section-heading"><u>Portfolio</u></h2>
           <h3 class="section-subheading text-muted">Take a look at some of my recent projects</h3>
         </div>
       </div>
-      <div class="row">
-
-        <!-- Friend Finder -->
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid projectImage" src="img/portfolio/peopleImage.jpg" alt="Friend Finder Image">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Friend Finder</h4>
-            <p class="text-muted">Take the survey and find friends similar to you!</p>
-          </div>
-        </div>
-
-        <!-- Eat The Burger -->
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid projectImage" src="img/portfolio/burgerImage.jpg" alt="Eat the Burger Image">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Eat The Burger</h4>
-            <p class="text-muted">Create your favorite burger and consume all you can!</p>
-          </div>
-        </div>
-
-        <!-- Foodgram -->
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid projectImage" src="img/portfolio/foodImage.jpeg" alt="Foodgram Image">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Foodgram</h4>
-            <p class="text-muted">Share and discover new food dishes from restruants around you!</p>
-          </div>
-        </div>
-
-        <!-- Crystal Collector -->
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/crystalCollector.jpg" alt="Crystal Collector Image">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Crystal Collector</h4>
-            <p class="text-muted">A game to collect crystals wthout going over your limit!</p>
-          </div>
-        </div>
-
-
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
-          </div>
-        </div>
-
-
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
-          </div>
-        </div>
-
+      <div class="row" id="projectsContainer">
 
       </div>
     </div>
@@ -361,12 +265,13 @@
       </div>
     </section> -->
 
+    
   <!-- Contact -->
   <section id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Get In Touch</h2>
+          <h2 class="section-heading"><u>Contact Me</u></h2>
         </div>
       </div>
       <div class="row">
@@ -374,21 +279,21 @@
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/portfolio/beach-image.jpg" alt="">
             <h4 style="color: white;">Dylan Acup</h4>
-            <p class="text-muted">Anheuser Busch Sales Rep</p>
+            <p class="text-muted">Software Developer</p>
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
+              <li class="list-inline-item contactItems">
                 <a href="mailto:dacup72@gmail.com" style="background-color: white; color:black;">
                   <i class="fa fa-paper-plane"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
+              <li class="list-inline-item contactItems">
                 <a href="https://github.com/dacup72" style="background-color: white; color:black;">
-                  <i class="fa fa-github"></i>
+                  <i class="fa fa-github"></i>                
                 </a>
               </li>
-              <li class="list-inline-item">
+              <li class="list-inline-item contactItems">
                 <a href="https://www.linkedin.com/in/dylan-acup-bb65a49b" style="background-color: white; color:black;">
-                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-linkedin"></i>                
                 </a>
               </li>
             </ul>
@@ -409,333 +314,9 @@
   </footer>
 
   <!-- Portfolio Modals -->
+  <div id="modalContainer"></div>
 
-  <!-- Modal 1 / Friend Finder-->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Friend Finder</h2>
-                <p class="item-intro text-muted">Technologies Used: Node.js; Express</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/peopleImage.jpg" alt="">
-                <p class="Pstyle">Description</p>
-                <p class="ULstyle">This full-stack site takes in user surveys and compares their answers with those from other users. The app
-                  then displays the name and picture of the user with the best overall match.</p>
-                <p class="Pstyle">Skills Learned</p>
-                <ul class="ULstyle LIstyle">
-                  <li>GET, USE, and POST routing through Express.</li>
-                  <li>Use of JSON obejects array to store data.</li>
-                  <li>Ability to pull data from object array and display it to user in a readable format.</li>
-                </ul>
-                <ul class="list-inline">
-                  <li>Date: August, 2017</li>
-                </ul>
-                <a href="https://radiant-coast-57514.herokuapp.com/">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-caret-square-o-right"></i>
-                    View Project Online
-                  </button>
-                </a>
-                <a href="https://github.com/dacup72/FriendFinder">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-file-code-o"></i>
-                    View Code
-                  </button>
-                </a>
-                <button class="btn btn-primary" data-dismiss="modal" type="button" style="background-color: black; border-color: black;">
-                  <i class="fa fa-times"></i>
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 2 / Eat the Burger-->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Eat The Burger</h2>
-                <p class="item-intro text-muted">Technologies Used: MySQL; Node.js; Express; Handlebars</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/burgerImage.jpg" alt="">
-                <p class="Pstyle">Description</p>
-                <p class="ULstyle">This is a burger creater / logger that allowes users to create their own custom burger and to interact with
-                  those burger by placing them in seperate "available" and "devoured" lists. Node and MySQL are used to query
-                  and route data in the app while handlebars is used to generate HTML.</p>
-                <p class="Pstyle">Tech Used</p>
-                <table>
-                  <tr>
-                    <th>Front-End</th>
-                    <th>Back-End</th>
-                    <th>Other</th>
-                  </tr>
-                  <tr>
-                    <td>HTML</td>
-                    <td>HTML</td>
-                    <td>HTML</td>
-                  </tr>
-                  <tr>
-                    <td>HTML</td>
-                    <td>HTML</td>
-                    <td>HTML</td>
-                  </tr>
-                  <tr>
-                    <td>HTML</td>
-                    <td>HTML</td>
-                    <td>HTML</td>
-                  </tr>
-                </table>
-                <p class="Pstyle">Skills Learned</p>
-                <ul class="ULstyle LIstyle">
-                  <li>MySQL database integration.</li>
-                  <li>Deployment of application on Heroku.</li>
-                  <li>Using Object Oriented Models to construct objects.</li>
-                </ul>
-                <ul class="list-inline">
-                  <li>Date: September, 2017</li>
-                </ul>
-                <a href="https://shielded-anchorage-88746.herokuapp.com/">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-caret-square-o-right"></i>
-                    View Project Online
-                  </button>
-                </a>
-                <a href="https://github.com/dacup72/burger">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-file-code-o"></i>
-                    View Code
-                  </button>
-                </a>
-                <button class="btn btn-primary" data-dismiss="modal" type="button" style="background-color: black; border-color: black;">
-                  <i class="fa fa-times"></i>
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 3 / Foodgram-->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Foodgram (In Progress)</h2>
-                <p class="item-intro text-muted">Technologies used: Node.js, React.js; Meteor; MongoDB; TensorFlow AI</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/foodImage.jpeg" alt="">
-                <p class="Pstyle">Description</p>
-                <p class="ULstyle">A social media platform to share delicious food images and discover new food dishes at nearby restruants.
-                  Users add and share photos a the clickof a button, allowing TensorFlow AI to identify and categorize the
-                  food. In addition the user can search for food items around them by image and use google places / geolocate
-                  to discover to foods posted by other users to try. (This project is a collaboration of 4 people)</p>
-                <p class="Pstyle">Skills Learned</p>
-                <ul class="ULstyle LIstyle">
-                  <li>React.js file structure and meteor framework integration.</li>
-                  <li>Integration of MongoDB.</li>
-                  <li>Using multiple APIs and NPM package in conjunction with React.js.</li>
-                </ul>
-                <ul class="list-inline">
-                  <li>Date: October, 2017</li>
-                </ul>
-                <a href="#">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-caret-square-o-right"></i>
-                    View Project Online (In Progress)
-                  </button>
-                </a>
-                <a href="https://github.com/daj757/foodgram">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-file-code-o"></i>
-                    View Code
-                  </button>
-                </a>
-                <button class="btn btn-primary" data-dismiss="modal" type="button" style="background-color: black; border-color: black;">
-                  <i class="fa fa-times"></i>
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 4 / Crystal Collector-->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Crystal Collector</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
-                  dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                </ul>
-                <a href="#">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-caret-square-o-right"></i>
-                    View Project Online
-                  </button>
-                </a>
-                <a href="#">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-file-code-o"></i>
-                    View Code
-                  </button>
-                </a>
-                <button class="btn btn-primary" data-dismiss="modal" type="button" style="background-color: black; border-color: black;">
-                  <i class="fa fa-times"></i>
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
-                  dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                </ul>
-                <a href="#">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-caret-square-o-right"></i>
-                    View Project Online
-                  </button>
-                </a>
-                <a href="#">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-file-code-o"></i>
-                    View Code
-                  </button>
-                </a>
-                <button class="btn btn-primary" data-dismiss="modal" type="button" style="background-color: black; border-color: black;">
-                  <i class="fa fa-times"></i>
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
-                  dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                </ul>
-                <a href="#">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-caret-square-o-right"></i>
-                    View Project Online
-                  </button>
-                </a>
-                <a href="#">
-                  <button class="btn btn-primary" type="button" style="background-color: black; border-color: black;">
-                    <i class="fa fa-file-code-o"></i>
-                    View Code
-                  </button>
-                </a>
-                <button class="btn btn-primary" data-dismiss="modal" type="button" style="background-color: black; border-color: black;">
-                  <i class="fa fa-times"></i>
-                  Close Project
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/popper/popper.min.js"></script>
@@ -750,6 +331,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <script src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./modal.js"></script>
 
 </body>
 
