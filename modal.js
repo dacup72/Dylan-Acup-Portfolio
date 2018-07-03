@@ -15,6 +15,27 @@
 // },
 
 
+// {
+//   name: "Foodgram",
+//   image: "foodImage.jpeg",
+//   description: `A social media platform to share delicious food images and discover new food dishes at nearby restruants.
+//     Users add and share photos a the clickof a button, allowing TensorFlow AI to identify and categorize the
+//     food. In addition the user can search for food items around them by image and use google places / geolocate
+//     to discover to foods posted by other users to try. (This project is a collaboration of 4 people)`,
+//   shortDescription: "Share and discover new food dishes from restruants around you!",
+//   frontEndTech: ["test"],
+//   BackEndTech: ["test"],
+//   otherTech: ["test"],
+//   skillsLearned: [
+//     "React.js file structure and meteor framework integration.",
+//     "Integration of MongoDB.",
+//     "Using multiple APIs and NPM package in conjunction with React.js."
+//   ],
+//   dateCreated: "October, 2017",
+//   liveUrl: "#",
+//   codeUrl: "https://github.com/daj757/foodgram"
+// },
+
 
 
 window.onload = function () {
@@ -58,26 +79,6 @@ window.onload = function () {
       codeUrl: "https://github.com/dacup72/burger"
     },
     {
-      name: "Foodgram",
-      image: "foodImage.jpeg",
-      description: `A social media platform to share delicious food images and discover new food dishes at nearby restruants.
-        Users add and share photos a the clickof a button, allowing TensorFlow AI to identify and categorize the
-        food. In addition the user can search for food items around them by image and use google places / geolocate
-        to discover to foods posted by other users to try. (This project is a collaboration of 4 people)`,
-      shortDescription: "Share and discover new food dishes from restruants around you!",
-      frontEndTech: ["test"],
-      BackEndTech: ["test"],
-      otherTech: ["test"],
-      skillsLearned: [
-        "React.js file structure and meteor framework integration.",
-        "Integration of MongoDB.",
-        "Using multiple APIs and NPM package in conjunction with React.js."
-      ],
-      dateCreated: "October, 2017",
-      liveUrl: "#",
-      codeUrl: "https://github.com/daj757/foodgram"
-    },
-    {
       name: "Crystal Collector",
       image: "crystalCollector.jpg",
       description: `Crystal Collector is a game designed to give the user 4 different crystals 
@@ -88,9 +89,9 @@ window.onload = function () {
       shortDescription: "A game to collect crystals wthout going over your limit!",
       frontEndTech: ["HTML", "CSS", "Javascript"],
       BackEndTech: [],
-      otherTech: ["GitHub"],
-      skillsLearned: ["#"],
-      dateCreated: "June, 2017",
+      otherTech: ["GitHub", "ES6"],
+      skillsLearned: ["Making use of ES6 template literals.", "Adapted a popup modal to work with jQuery instead of using the alert function."],
+      dateCreated: "October, 2017",
       liveUrl: "https://dacup72.github.io/Crystal-Collector-Game/",
       codeUrl: "https://github.com/dacup72/Crystal-Collector-Game"
     },
