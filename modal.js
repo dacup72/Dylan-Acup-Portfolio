@@ -87,14 +87,31 @@ window.onload = function () {
         is able to match the target score with their accumulated score then the user wins. If the user 
         goes over the target score with their accumulated score then the user loses.`,
       shortDescription: "A game to collect crystals wthout going over your limit!",
-      frontEndTech: ["HTML", "CSS", "Javascript"],
+      frontEndTech: ["HTML", "CSS", "Javascript", "Webflow"],
       BackEndTech: [],
-      otherTech: ["GitHub", "ES6"],
-      skillsLearned: ["Making use of ES6 template literals.", "Adapted a popup modal to work with jQuery instead of using the alert function."],
+      otherTech: ["GitHub"],
+      skillsLearned: ["Learned how to utilize Webflow styling.", "Made use of objects to store hidden numeric values on crystals."],
       dateCreated: "October, 2017",
       liveUrl: "https://dacup72.github.io/Crystal-Collector-Game/",
       codeUrl: "https://github.com/dacup72/Crystal-Collector-Game"
     },
+    {
+      name: "Trivia Game",
+      image: "triviaGame.png",
+      description: `This Trivia Game presents the player with a series of timed random trive questions to 
+        answer.  If the user fails to answer any current question in the available time then the game will 
+        count it as incorrect and move you to the next question.  At the end of the game you will be presented 
+        with your total scores. Good luck!`,
+      shortDescription: "Challenge your random knowledge on this Trivia Game!",
+      frontEndTech: ["HTML", "CSS", "Javascript"],
+      BackEndTech: [],
+      otherTech: ["GitHub"],
+      skillsLearned: ["Learned how to used object based javascript for functions and data", "Implemented a well controlled javascript timer"],
+      dateCreated: "Janurary, 2018",
+      liveUrl: "https://dacup72.github.io/Trivia-Game/",
+      codeUrl: "https://github.com/dacup72/Trivia-Game"
+    },
+    
   ]
 
   // Constructor
