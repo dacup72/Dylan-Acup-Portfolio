@@ -43,7 +43,7 @@ window.onload = function () {
   const modalData = [
     {
       name: "Friend Finder",
-      image: "peopleImage.jpg",
+      image: "friendFinder.jpg",
       description: `This full-stack site takes in user surveys and compares their answers with those from other users. 
         The app then displays the name and picture of the user with the best overall match.`,
       shortDescription: "Take the survey and find friends similar to you!",
@@ -61,7 +61,7 @@ window.onload = function () {
     },
     {
       name: "Eat The Burger",
-      image: "burgerImage.jpg",
+      image: "eatTheBurger.jpg",
       description: `This is a burger creater / logger that allowes users to create their own custom burger and to interact with
         those burger by placing them in seperate "available" and "devoured" lists. Node and MySQL are used to query
         and route data in the app while handlebars is used to generate HTML.`,
@@ -80,7 +80,7 @@ window.onload = function () {
     },
     {
       name: "Crystal Collector",
-      image: "crystalCollector.jpg",
+      image: "crystalCollector.png",
       description: `Crystal Collector is a game designed to give the user 4 different crystals 
         (each with randomly generated numbers associated to them) to click on in order to add the 
         crystals value to an accumulatin score. There is a large target score to reach and if the user 
