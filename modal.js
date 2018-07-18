@@ -65,7 +65,7 @@ window.onload = function () {
       description: `This is a burger creater / logger that allowes users to create their own custom burger and to interact with
         those burger by placing them in seperate "available" and "devoured" lists. Node and MySQL are used to query
         and route data in the app while handlebars is used to generate HTML.`,
-        shortDescription: "Create your favorite burger and consume all you can!",
+      shortDescription: "Create your favorite burger and consume all you can!",
       frontEndTech: ["HTML", "CSS", "Javascript"],
       BackEndTech: ["test", "test"],
       otherTech: ["test", "test", "test"],
@@ -90,7 +90,8 @@ window.onload = function () {
       frontEndTech: ["HTML", "CSS", "Javascript", "Webflow"],
       BackEndTech: [],
       otherTech: ["GitHub"],
-      skillsLearned: ["Learned how to utilize Webflow styling.", "Made use of objects to store hidden numeric values on crystals."],
+      skillsLearned: ["Learned how to utilize Webflow styling.", 
+        "Made use of objects to store hidden numeric values on crystals."],
       dateCreated: "October, 2017",
       liveUrl: "https://dacup72.github.io/Crystal-Collector-Game/",
       codeUrl: "https://github.com/dacup72/Crystal-Collector-Game"
@@ -106,12 +107,32 @@ window.onload = function () {
       frontEndTech: ["HTML", "CSS", "Javascript"],
       BackEndTech: [],
       otherTech: ["GitHub"],
-      skillsLearned: ["Learned how to used object based javascript for functions and data", "Implemented a well controlled javascript timer"],
+      skillsLearned: ["Learned how to used object based javascript for functions and data", 
+        "Implemented a well controlled javascript timer"],
       dateCreated: "Janurary, 2018",
       liveUrl: "https://dacup72.github.io/Trivia-Game/",
       codeUrl: "https://github.com/dacup72/Trivia-Game"
     },
-    
+    {
+      name: "Giftastic",
+      image: "giftastic.png",
+      description: `Giftastic is a simple application making use of the [Giphy API](https://developers.giphy.com/) 
+        to display gifs to users and allow users to pick which gifs they want to save as their favorites.  
+        The app uses an AJAX call to get a json response from the giphy api and then displays each gif recieved 
+        back on the page.  The gifs can toggle their animation by clicking on them or saved to a favorites 
+        section by double clicking on them.  Users can also create their own buttons to search for different 
+        gifs.`,
+      shortDescription: "A fun way to search and save gifs!",
+      frontEndTech: ["HTML", "CSS", "Bootstrap", "Javascript", "AJAX"],
+      BackEndTech: [],
+      otherTech: ["GitHub", "Giphy API"],
+      skillsLearned: ["Learned to use AJAX calls to recieve data from APIs", 
+        "Learned how to create a double click event with DATE object in Javascript"],
+      dateCreated: "February, 2018",
+      liveUrl: "https://dacup72.github.io/Giftastic/",
+      codeUrl: "https://github.com/dacup72/Giftastic"
+    },
+
   ]
 
   // Constructor
