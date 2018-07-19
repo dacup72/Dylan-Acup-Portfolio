@@ -66,7 +66,7 @@ window.onload = function () {
         those burger by placing them in seperate "available" and "devoured" lists. Node and MySQL are used to query
         and route data in the app while handlebars is used to generate HTML.`,
       shortDescription: "Create your favorite burger and consume all you can!",
-      frontEndTech: ["HTML", "CSS", "Javascript"],
+      frontEndTech: ["HTML", "CSS", "Javascript", "jQuery"],
       BackEndTech: ["test", "test"],
       otherTech: ["test", "test", "test"],
       skillsLearned: [
@@ -87,7 +87,7 @@ window.onload = function () {
         is able to match the target score with their accumulated score then the user wins. If the user 
         goes over the target score with their accumulated score then the user loses.`,
       shortDescription: "A game to collect crystals wthout going over your limit!",
-      frontEndTech: ["HTML", "CSS", "Javascript", "Webflow"],
+      frontEndTech: ["HTML", "CSS", "Javascript", "jQuery", "Webflow"],
       BackEndTech: [],
       otherTech: ["GitHub"],
       skillsLearned: ["Learned how to utilize Webflow styling.",
@@ -104,7 +104,7 @@ window.onload = function () {
         count it as incorrect and move you to the next question.  At the end of the game you will be presented 
         with your total scores. Good luck!`,
       shortDescription: "Challenge your random knowledge on this Trivia Game!",
-      frontEndTech: ["HTML", "CSS", "Javascript"],
+      frontEndTech: ["HTML", "CSS", "Javascript", "jQuery"],
       BackEndTech: [],
       otherTech: ["GitHub"],
       skillsLearned: ["Learned how to used object based javascript for functions and data",
@@ -123,7 +123,7 @@ window.onload = function () {
         section by double clicking on them.  Users can also create their own buttons to search for different 
         gifs.`,
       shortDescription: "A fun way to search and save gifs!",
-      frontEndTech: ["HTML", "CSS", "Bootstrap", "Javascript", "AJAX"],
+      frontEndTech: ["HTML", "CSS", "Bootstrap", "Javascript", "jQuery", "AJAX"],
       BackEndTech: [],
       otherTech: ["GitHub", "Giphy API"],
       skillsLearned: ["Learned to use AJAX calls to recieve data from APIs",
@@ -141,7 +141,7 @@ window.onload = function () {
         display them to the user.  Anytime the database is updates with a new train or the page is refreshed 
         the train times will be updated.`,
       shortDescription: "Schedule your trains in a realtime database!",
-      frontEndTech: ["HTML", "Bootstrap", "Javascript", "Moment.js"],
+      frontEndTech: ["HTML", "Bootstrap", "Javascript", "jQuery", "Moment.js"],
       BackEndTech: ["Firebase Database"],
       otherTech: ["Github"],
       skillsLearned: ["Learned how to interact with a realtime database in Javascript",
@@ -149,6 +149,23 @@ window.onload = function () {
       dateCreated: "February, 2018",
       liveUrl: "https://dacup72.github.io/trainScheduler/",
       codeUrl: "https://github.com/dacup72/trainScheduler"
+    },
+    {
+      name: "Flashcard Generator",
+      image: "flashcardGenerator.png",
+      description: `FlashCard-Generator is designed to be a web-based application that helps users to learn 
+        information in an interactive and fun manner. Users are required to sign up with a username and password 
+        so that their created cards can be saved and can be reviewed at their leisure.`,
+      shortDescription: "Create fun flashcards for studying",
+      frontEndTech: ["HTML", "CSS", "Bootstrap", "Animate CSS", "Javascript", "jQuery"],
+      BackEndTech: ["Firebase Database"],
+      otherTech: ["GitHub"],
+      skillsLearned: ["Learned how to use authentication with Firebase", 
+        "Learned to store user data and display it based on login status", 
+        "Learned how to use Animate CSS"],
+      dateCreated: "February 2018",
+      liveUrl: "https://dacup72.github.io/Flashcard-Generator/",
+      codeUrl: "https://github.com/dacup72/Flashcard-Generator"
     },
 
   ]
