@@ -90,7 +90,7 @@ window.onload = function () {
       frontEndTech: ["HTML", "CSS", "Javascript", "Webflow"],
       BackEndTech: [],
       otherTech: ["GitHub"],
-      skillsLearned: ["Learned how to utilize Webflow styling.", 
+      skillsLearned: ["Learned how to utilize Webflow styling.",
         "Made use of objects to store hidden numeric values on crystals."],
       dateCreated: "October, 2017",
       liveUrl: "https://dacup72.github.io/Crystal-Collector-Game/",
@@ -107,7 +107,7 @@ window.onload = function () {
       frontEndTech: ["HTML", "CSS", "Javascript"],
       BackEndTech: [],
       otherTech: ["GitHub"],
-      skillsLearned: ["Learned how to used object based javascript for functions and data", 
+      skillsLearned: ["Learned how to used object based javascript for functions and data",
         "Implemented a well controlled javascript timer"],
       dateCreated: "Janurary, 2018",
       liveUrl: "https://dacup72.github.io/Trivia-Game/",
@@ -126,11 +126,29 @@ window.onload = function () {
       frontEndTech: ["HTML", "CSS", "Bootstrap", "Javascript", "AJAX"],
       BackEndTech: [],
       otherTech: ["GitHub", "Giphy API"],
-      skillsLearned: ["Learned to use AJAX calls to recieve data from APIs", 
+      skillsLearned: ["Learned to use AJAX calls to recieve data from APIs",
         "Learned how to create a double click event with DATE object in Javascript"],
       dateCreated: "February, 2018",
       liveUrl: "https://dacup72.github.io/Giftastic/",
       codeUrl: "https://github.com/dacup72/Giftastic"
+    },
+    {
+      name: "Train Scheduler",
+      image: "trainScheduler.png",
+      description: `Train Scheduler is an application that allows users to submit train information to a 
+        database and observe the train arrival time update in realtime.  I used Firebase as the realtime 
+        database to store the train information and Moment.js to work with dates and time more easily and 
+        display them to the user.  Anytime the database is updates with a new train or the page is refreshed 
+        the train times will be updated.`,
+      shortDescription: "Schedule your trains in a realtime database!",
+      frontEndTech: ["HTML", "Bootstrap", "Javascript", "Moment.js"],
+      BackEndTech: ["Firebase Database"],
+      otherTech: ["Github"],
+      skillsLearned: ["Learned how to interact with a realtime database in Javascript",
+        "Learned how to manipulate dates and time with Moment.js"],
+      dateCreated: "February, 2018",
+      liveUrl: "https://dacup72.github.io/trainScheduler/",
+      codeUrl: "https://github.com/dacup72/trainScheduler"
     },
 
   ]
