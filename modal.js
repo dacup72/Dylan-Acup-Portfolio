@@ -86,7 +86,7 @@ window.onload = function () {
         crystals value to an accumulatin score. There is a large target score to reach and if the user 
         is able to match the target score with their accumulated score then the user wins. If the user 
         goes over the target score with their accumulated score then the user loses.`,
-      shortDescription: "A game to collect crystals wthout going over your limit!",
+      shortDescription: "Javascript based game using random numbers to challenge users!",
       frontEndTech: ["HTML", "CSS", "Javascript", "jQuery", "Webflow"],
       BackEndTech: [],
       otherTech: ["GitHub"],
@@ -103,7 +103,7 @@ window.onload = function () {
         answer.  If the user fails to answer any current question in the available time then the game will 
         count it as incorrect and move you to the next question.  At the end of the game you will be presented 
         with your total scores. Good luck!`,
-      shortDescription: "Challenge your random knowledge on this Trivia Game!",
+      shortDescription: "Trivia game app using javascript timers to present a challenge!",
       frontEndTech: ["HTML", "CSS", "Javascript", "jQuery"],
       BackEndTech: [],
       otherTech: ["GitHub"],
@@ -122,7 +122,7 @@ window.onload = function () {
         back on the page.  The gifs can toggle their animation by clicking on them or saved to a favorites 
         section by double clicking on them.  Users can also create their own buttons to search for different 
         gifs.`,
-      shortDescription: "A fun way to search and save gifs!",
+      shortDescription: "App for searching through giphys utilizing Giphy API!",
       frontEndTech: ["HTML", "CSS", "Bootstrap", "Javascript", "jQuery", "AJAX"],
       BackEndTech: [],
       otherTech: ["GitHub", "Giphy API"],
@@ -140,7 +140,7 @@ window.onload = function () {
         database to store the train information and Moment.js to work with dates and time more easily and 
         display them to the user.  Anytime the database is updates with a new train or the page is refreshed 
         the train times will be updated.`,
-      shortDescription: "Schedule your trains in a realtime database!",
+      shortDescription: "Train time scheduling app using moment.js and Firebase Database",
       frontEndTech: ["HTML", "Bootstrap", "Javascript", "jQuery", "Moment.js"],
       BackEndTech: ["Firebase Database"],
       otherTech: ["Github"],
@@ -156,16 +156,35 @@ window.onload = function () {
       description: `FlashCard-Generator is designed to be a web-based application that helps users to learn 
         information in an interactive and fun manner. Users are required to sign up with a username and password 
         so that their created cards can be saved and can be reviewed at their leisure.`,
-      shortDescription: "Create fun flashcards for studying",
+      shortDescription: "A flashcard generating app for studying that uses Firebase for database and authentication!",
       frontEndTech: ["HTML", "CSS", "Bootstrap", "Animate CSS", "Javascript", "jQuery"],
       BackEndTech: ["Firebase Database"],
       otherTech: ["GitHub"],
-      skillsLearned: ["Learned how to use authentication with Firebase", 
-        "Learned to store user data and display it based on login status", 
+      skillsLearned: ["Learned how to use authentication with Firebase",
+        "Learned to store user data and display it based on login status",
         "Learned how to use Animate CSS"],
       dateCreated: "February 2018",
       liveUrl: "https://dacup72.github.io/Flashcard-Generator/",
       codeUrl: "https://github.com/dacup72/Flashcard-Generator"
+    },
+    {
+      name: "Bamazon Storefront",
+      image: "bamazonCustomer.png",
+      description: `Bamazon is a Node.js app the runs through the console and allows 
+        for a multi layered store environment to function with mySQL database.  At the customer level users are 
+        prompted on the console with Inquirer.js to buy products.  
+        On the manager level users are prompted to add inventory and products along with other useful tasks.  
+        On the Supervisor level users can veiw total sales and add product departments.`,
+      shortDescription: "A Node.js store front run completly on the terminal and storing data with MySQL database!",
+      frontEndTech: ["Javascript"],
+      BackEndTech: ["Node.js", "SQL Database"],
+      otherTech: ["Inquirer.js", "MySQL Workbench", "MAMP", "GitHub"],
+      skillsLearned: ["Learned advanced SQL methods including MySQL aliases, GROUP BYs, and JOINS", 
+        "Learned how to interact with back end solely through Node.js", 
+        "Learned how to run SQL database on local machine"],
+      dateCreated: "March, 2018",
+      liveUrl: "N/A",
+      codeUrl: "https://github.com/dacup72/bamazon-storefront"
     },
 
   ]
