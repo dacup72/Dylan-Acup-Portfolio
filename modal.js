@@ -44,19 +44,21 @@ window.onload = function () {
     {
       name: "Friend Finder",
       image: "friendFinder.jpg",
-      description: `This full-stack site takes in user surveys and compares their answers with those from other users. 
-        The app then displays the name and picture of the user with the best overall match.`,
+      description: `Friend Finder is a front and back end application designed to compare saved survey scores in 
+        order to discover your best match for a friend.  The back end runs with Node.js 
+        and uses Express.js along with Path.js for back end routing.  The database that stores user input from 
+        the survey is a simple javascript file expoerting an array of objects.  Have fun finding your match online!`,
       shortDescription: "Take the survey and find friends similar to you!",
-      frontEndTech: ["HTML", "CSS", "Javascript"],
-      BackEndTech: ["test", "test"],
-      otherTech: ["test", "test", "test"],
+      frontEndTech: ["HTML", "Bootstrap", "Javascript", "jQuery"],
+      BackEndTech: ["Node.js", "Express.js", "Path.js"],
+      otherTech: ["GitHub", "Body-Parser", "Heroku Deployment"],
       skillsLearned: [
-        "GET, USE, and POST routing through Express.",
-        "Use of JSON obejects array to store data.",
-        "Ability to pull data from object array and display it to user in a readable format."
+        "Learned GET and POST routing through Express.js",
+        "Learned how to set up localhost server on local machine to run code",
+        "Learned how to deploy code to Heroku"
       ],
-      dateCreated: "August, 2017",
-      liveUrl: "https://radiant-coast-57514.herokuapp.com/",
+      dateCreated: "March, 2018",
+      liveUrl: "https://friend-finder-app2.herokuapp.com/",
       codeUrl: "https://github.com/dacup72/FriendFinder"
     },
     {
