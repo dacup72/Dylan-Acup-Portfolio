@@ -63,20 +63,22 @@ window.onload = function () {
     },
     {
       name: "Eat The Burger",
-      image: "eatTheBurger.jpg",
-      description: `This is a burger creater / logger that allowes users to create their own custom burger and to interact with
-        those burger by placing them in seperate "available" and "devoured" lists. Node and MySQL are used to query
-        and route data in the app while handlebars is used to generate HTML.`,
-      shortDescription: "Create your favorite burger and consume all you can!",
-      frontEndTech: ["HTML", "CSS", "Javascript", "jQuery"],
-      BackEndTech: ["test", "test"],
-      otherTech: ["test", "test", "test"],
+      image: "eatTheBurger.png",
+      description: `Eat The Burger is a full-stack app using Javascript and Handlebars templating on the front end and Node / Express js with 
+        MySQL / Sequelize for the back end.  The app allows you to create burgers that are saved in the database and that can either be left for 
+        other people to "purchase" and "eat" (Select and delete) or eaten by your self!  It was a fun experimentation with SQL and Sequelize in a 
+        full-stack application!`,
+      shortDescription: `Create your favorite burger with this full-stack application utilizing Node / Express.js and SQL / Sequelize on the back end and 
+        Javascript / Handelbars HTML templating on the front end!`,
+      frontEndTech: ["HTML", "CSS", "Bootstrap", "Javascript", "Handlebars.js"],
+      BackEndTech: ["Node.js", "Express.js", "MySQL", "Sequelize"],
+      otherTech: ["Github", "Heroku Deployment"],
       skillsLearned: [
-        "MySQL database integration.",
-        "Deployment of application on Heroku.",
-        "Using Object Oriented Models to construct objects."
+        "Learned how to use an Handlebars html templating with Javascript on the front end",
+        "Learned how to deploy a full-stack application and how to solve the potential errors that come along with it",
+        "Learned how to integrate MySQL database / Sequelize with Express.js routing in a full stack application"
       ],
-      dateCreated: "September, 2017",
+      dateCreated: "May, 2018",
       liveUrl: "https://shielded-anchorage-88746.herokuapp.com/",
       codeUrl: "https://github.com/dacup72/burger"
     },
@@ -181,14 +183,13 @@ window.onload = function () {
       frontEndTech: ["Javascript"],
       BackEndTech: ["Node.js", "SQL Database"],
       otherTech: ["Inquirer.js", "MySQL Workbench", "MAMP", "GitHub"],
-      skillsLearned: ["Learned advanced SQL methods including MySQL aliases, GROUP BYs, and JOINS", 
-        "Learned how to interact with back end solely through Node.js", 
+      skillsLearned: ["Learned advanced SQL methods including MySQL aliases, GROUP BYs, and JOINS",
+        "Learned how to interact with back end solely through Node.js",
         "Learned how to run SQL database on local machine"],
       dateCreated: "March, 2018",
       liveUrl: "N/A",
       codeUrl: "https://github.com/dacup72/bamazon-storefront"
     },
-
   ]
 
   // Constructor
