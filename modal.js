@@ -48,7 +48,7 @@ window.onload = function () {
         order to discover your best match for a friend.  The back end runs with Node.js 
         and uses Express.js along with Path.js for back end routing.  The database that stores user input from 
         the survey is a simple javascript file expoerting an array of objects.  Have fun finding your match online!`,
-      shortDescription: "Take the survey and find friends similar to you!",
+      shortDescription: "Take the survey and find friends similar to you with a live Node / Express app!",
       frontEndTech: ["HTML", "Bootstrap", "Javascript", "jQuery"],
       BackEndTech: ["Node.js", "Express.js", "Path.js"],
       otherTech: ["GitHub", "Body-Parser", "Heroku Deployment"],
