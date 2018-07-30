@@ -203,12 +203,31 @@ window.onload = function () {
       frontEndTech: ["Javascript"],
       BackEndTech: ["Node.js", "Node.js FS", "dotenv"],
       otherTech: ["Twitter API", "OMDB API", "node-spotify-api", "Github"],
-      skillsLearned: ["Learned how to access and use multiple APIs in a backend based application", 
-        "Learned how to read and write to .txt files with Node.js File System", 
+      skillsLearned: ["Learned how to access and use multiple APIs in a backend based application",
+        "Learned how to read and write to .txt files with Node.js File System",
         "Learned how to protect API keys and use environment variables"],
       dateCreated: "December, 2017",
       liveUrl: "N/A",
       codeUrl: "https://github.com/dacup72/LIRI-Bot"
+    },
+    {
+      name: "Clicky Game",
+      image: "clickyGame.png",
+      description: `Clicky Game is a front end React app that give the user a fun memory test game with images.  The data that keeps track of score 
+        and images is stored in a JSON file.  In this game your score is determined by how many images you can click with out clicking one that you 
+        have already clicked.  What makes it challenging is that there is a method in react that shuffles all images everytime you click one.  Each 
+        successful click adds one point to your score and the top score is also kept track of. Have fun!`,
+      shortDescription: "A React.js front end game using a JSON file to store data and difficult image memory tasks to challenge the user!",
+      frontEndTech: ["Javascript", "CSS", "Bootstrap", "React.js"],
+      BackEndTech: ["Node.js"],
+      otherTech: ["Github", "Create-React-App", "Heroku Deployment"],
+      skillsLearned: ["Learned how to make use of state and prop updates for the game refresh", 
+        "Learned how to deploy React app on Heroku", 
+        "Learned how to create front end with JSX", 
+        "Learned more about using keyframes with CSS"],
+      dateCreated: "May, 2018 ",
+      liveUrl: "https://clicky-game3.herokuapp.com/",
+      codeUrl: "https://github.com/dacup72/Clicky-Game"
     },
   ]
 
