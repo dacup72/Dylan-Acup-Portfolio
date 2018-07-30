@@ -42,24 +42,40 @@ window.onload = function () {
 
   const modalData = [
     {
-      name: "Friend Finder",
-      image: "friendFinder.jpg",
-      description: `Friend Finder is a front and back end application designed to compare saved survey scores in 
-        order to discover your best match for a friend.  The back end runs with Node.js 
-        and uses Express.js along with Path.js for back end routing.  The database that stores user input from 
-        the survey is a simple javascript file expoerting an array of objects.  Have fun finding your match online!`,
-      shortDescription: "Take the survey and find friends similar to you with a live Node / Express app!",
-      frontEndTech: ["HTML", "Bootstrap", "Javascript", "jQuery"],
-      BackEndTech: ["Node.js", "Express.js", "Path.js"],
-      otherTech: ["GitHub", "Body-Parser", "Heroku Deployment"],
-      skillsLearned: [
-        "Learned GET and POST routing through Express.js",
-        "Learned how to set up localhost server on local machine to run code",
-        "Learned how to deploy code to Heroku"
-      ],
-      dateCreated: "March, 2018",
-      liveUrl: "https://friend-finder-app2.herokuapp.com/",
-      codeUrl: "https://github.com/dacup72/FriendFinder"
+      name: "Clicky Game",
+      image: "clickyGame.png",
+      description: `Clicky Game is a front end React app that give the user a fun memory test game with images.  The data that keeps track of score 
+        and images is stored in a JSON file.  In this game your score is determined by how many images you can click with out clicking one that you 
+        have already clicked.  What makes it challenging is that there is a method in react that shuffles all images everytime you click one.  Each 
+        successful click adds one point to your score and the top score is also kept track of. Have fun!`,
+      shortDescription: "A React.js front end game using a JSON file to store data and difficult image memory tasks to challenge the user!",
+      frontEndTech: ["Javascript", "CSS", "Bootstrap", "React.js"],
+      BackEndTech: ["Node.js"],
+      otherTech: ["Github", "Create-React-App", "Heroku Deployment"],
+      skillsLearned: ["Learned how to make use of state and prop updates for the game refresh", 
+        "Learned how to deploy React app on Heroku", 
+        "Learned how to create front end with JSX", 
+        "Learned more about using keyframes with CSS"],
+      dateCreated: "May, 2018 ",
+      liveUrl: "https://clicky-game3.herokuapp.com/",
+      codeUrl: "https://github.com/dacup72/Clicky-Game"
+    },
+    {
+      name: "Flashcard Generator",
+      image: "flashcardGenerator.png",
+      description: `FlashCard-Generator is designed to be a web-based application that helps users to learn 
+        information in an interactive and fun manner. Users are required to sign up with a username and password 
+        so that their created cards can be saved and can be reviewed at their leisure.`,
+      shortDescription: "A flashcard generating app for studying that uses Firebase for database and authentication!",
+      frontEndTech: ["HTML", "CSS", "Bootstrap", "Animate CSS", "Javascript", "jQuery"],
+      BackEndTech: ["Firebase Database"],
+      otherTech: ["GitHub"],
+      skillsLearned: ["Learned how to use authentication with Firebase",
+        "Learned to store user data and display it based on login status",
+        "Learned how to use Animate CSS"],
+      dateCreated: "February 2018",
+      liveUrl: "https://dacup72.github.io/Flashcard-Generator/",
+      codeUrl: "https://github.com/dacup72/Flashcard-Generator"
     },
     {
       name: "Eat The Burger",
@@ -82,6 +98,66 @@ window.onload = function () {
       liveUrl: "https://shielded-anchorage-88746.herokuapp.com/",
       codeUrl: "https://github.com/dacup72/burger"
     },
+    {
+      name: "Bamazon Storefront",
+      image: "bamazonCustomer.png",
+      description: `Bamazon is a Node.js app the runs through the console and allows 
+        for a multi layered store environment to function with mySQL database.  At the customer level users are 
+        prompted on the console with Inquirer.js to buy products.  
+        On the manager level users are prompted to add inventory and products along with other useful tasks.  
+        On the Supervisor level users can veiw total sales and add product departments.`,
+      shortDescription: "A Node.js store front run completly on the terminal and storing data with MySQL database!",
+      frontEndTech: ["Javascript"],
+      BackEndTech: ["Node.js", "SQL Database"],
+      otherTech: ["Inquirer.js", "MySQL Workbench", "MAMP", "GitHub"],
+      skillsLearned: ["Learned advanced SQL methods including MySQL aliases, GROUP BYs, and JOINS",
+        "Learned how to interact with back end solely through Node.js",
+        "Learned how to run SQL database on local machine"],
+      dateCreated: "March, 2018",
+      liveUrl: "N/A",
+      codeUrl: "https://github.com/dacup72/bamazon-storefront"
+    },
+    {
+      name: "Friend Finder",
+      image: "friendFinder.jpg",
+      description: `Friend Finder is a front and back end application designed to compare saved survey scores in 
+        order to discover your best match for a friend.  The back end runs with Node.js 
+        and uses Express.js along with Path.js for back end routing.  The database that stores user input from 
+        the survey is a simple javascript file expoerting an array of objects.  Have fun finding your match online!`,
+      shortDescription: "Take the survey and find friends similar to you with a live Node / Express app!",
+      frontEndTech: ["HTML", "Bootstrap", "Javascript", "jQuery"],
+      BackEndTech: ["Node.js", "Express.js", "Path.js"],
+      otherTech: ["GitHub", "Body-Parser", "Heroku Deployment"],
+      skillsLearned: [
+        "Learned GET and POST routing through Express.js",
+        "Learned how to set up localhost server on local machine to run code",
+        "Learned how to deploy code to Heroku"
+      ],
+      dateCreated: "March, 2018",
+      liveUrl: "https://friend-finder-app2.herokuapp.com/",
+      codeUrl: "https://github.com/dacup72/FriendFinder"
+    },
+    {
+      name: "LIRI Bot",
+      image: "liriBot.png",
+      description: `LIRI Bot is a Node.js based application allowing users to access different API's through the terminal / git bash window.  
+        Users can do the following: enter a screen name into the "my-tweets" command to get access to specific tweets, enter a song title into the 
+        "spotify-this-song" command to search songs, enter a movie name into the "movie-this" command to search movies, or enter the command 
+        "do-what-it-says" to have the Node.js file system read a txt file and apply what every commmand is inside of theat files to the applications 
+        functionality.  The app makes use of the Spotify, Twitter, and OMDB APIs along with the ability to log your previous search results in a .txt 
+        file with Node.js FS.`,
+      shortDescription: "LIRI Bot is a Node.js application run in the terminal that allows you to interact with multiple awesome APIs like Twitter!",
+      frontEndTech: ["Javascript"],
+      BackEndTech: ["Node.js", "Node.js FS", "dotenv"],
+      otherTech: ["Twitter API", "OMDB API", "node-spotify-api", "Github"],
+      skillsLearned: ["Learned how to access and use multiple APIs in a backend based application",
+        "Learned how to read and write to .txt files with Node.js File System",
+        "Learned how to protect API keys and use environment variables"],
+      dateCreated: "December, 2017",
+      liveUrl: "N/A",
+      codeUrl: "https://github.com/dacup72/LIRI-Bot"
+    },
+    
     {
       name: "Crystal Collector",
       image: "crystalCollector.png",
@@ -154,81 +230,10 @@ window.onload = function () {
       liveUrl: "https://dacup72.github.io/trainScheduler/",
       codeUrl: "https://github.com/dacup72/trainScheduler"
     },
-    {
-      name: "Flashcard Generator",
-      image: "flashcardGenerator.png",
-      description: `FlashCard-Generator is designed to be a web-based application that helps users to learn 
-        information in an interactive and fun manner. Users are required to sign up with a username and password 
-        so that their created cards can be saved and can be reviewed at their leisure.`,
-      shortDescription: "A flashcard generating app for studying that uses Firebase for database and authentication!",
-      frontEndTech: ["HTML", "CSS", "Bootstrap", "Animate CSS", "Javascript", "jQuery"],
-      BackEndTech: ["Firebase Database"],
-      otherTech: ["GitHub"],
-      skillsLearned: ["Learned how to use authentication with Firebase",
-        "Learned to store user data and display it based on login status",
-        "Learned how to use Animate CSS"],
-      dateCreated: "February 2018",
-      liveUrl: "https://dacup72.github.io/Flashcard-Generator/",
-      codeUrl: "https://github.com/dacup72/Flashcard-Generator"
-    },
-    {
-      name: "Bamazon Storefront",
-      image: "bamazonCustomer.png",
-      description: `Bamazon is a Node.js app the runs through the console and allows 
-        for a multi layered store environment to function with mySQL database.  At the customer level users are 
-        prompted on the console with Inquirer.js to buy products.  
-        On the manager level users are prompted to add inventory and products along with other useful tasks.  
-        On the Supervisor level users can veiw total sales and add product departments.`,
-      shortDescription: "A Node.js store front run completly on the terminal and storing data with MySQL database!",
-      frontEndTech: ["Javascript"],
-      BackEndTech: ["Node.js", "SQL Database"],
-      otherTech: ["Inquirer.js", "MySQL Workbench", "MAMP", "GitHub"],
-      skillsLearned: ["Learned advanced SQL methods including MySQL aliases, GROUP BYs, and JOINS",
-        "Learned how to interact with back end solely through Node.js",
-        "Learned how to run SQL database on local machine"],
-      dateCreated: "March, 2018",
-      liveUrl: "N/A",
-      codeUrl: "https://github.com/dacup72/bamazon-storefront"
-    },
-    {
-      name: "LIRI Bot",
-      image: "liriBot.png",
-      description: `LIRI Bot is a Node.js based application allowing users to access different API's through the terminal / git bash window.  
-        Users can do the following: enter a screen name into the "my-tweets" command to get access to specific tweets, enter a song title into the 
-        "spotify-this-song" command to search songs, enter a movie name into the "movie-this" command to search movies, or enter the command 
-        "do-what-it-says" to have the Node.js file system read a txt file and apply what every commmand is inside of theat files to the applications 
-        functionality.  The app makes use of the Spotify, Twitter, and OMDB APIs along with the ability to log your previous search results in a .txt 
-        file with Node.js FS.`,
-      shortDescription: "LIRI Bot is a Node.js application run in the terminal that allows you to interact with multiple awesome APIs like Twitter!",
-      frontEndTech: ["Javascript"],
-      BackEndTech: ["Node.js", "Node.js FS", "dotenv"],
-      otherTech: ["Twitter API", "OMDB API", "node-spotify-api", "Github"],
-      skillsLearned: ["Learned how to access and use multiple APIs in a backend based application",
-        "Learned how to read and write to .txt files with Node.js File System",
-        "Learned how to protect API keys and use environment variables"],
-      dateCreated: "December, 2017",
-      liveUrl: "N/A",
-      codeUrl: "https://github.com/dacup72/LIRI-Bot"
-    },
-    {
-      name: "Clicky Game",
-      image: "clickyGame.png",
-      description: `Clicky Game is a front end React app that give the user a fun memory test game with images.  The data that keeps track of score 
-        and images is stored in a JSON file.  In this game your score is determined by how many images you can click with out clicking one that you 
-        have already clicked.  What makes it challenging is that there is a method in react that shuffles all images everytime you click one.  Each 
-        successful click adds one point to your score and the top score is also kept track of. Have fun!`,
-      shortDescription: "A React.js front end game using a JSON file to store data and difficult image memory tasks to challenge the user!",
-      frontEndTech: ["Javascript", "CSS", "Bootstrap", "React.js"],
-      BackEndTech: ["Node.js"],
-      otherTech: ["Github", "Create-React-App", "Heroku Deployment"],
-      skillsLearned: ["Learned how to make use of state and prop updates for the game refresh", 
-        "Learned how to deploy React app on Heroku", 
-        "Learned how to create front end with JSX", 
-        "Learned more about using keyframes with CSS"],
-      dateCreated: "May, 2018 ",
-      liveUrl: "https://clicky-game3.herokuapp.com/",
-      codeUrl: "https://github.com/dacup72/Clicky-Game"
-    },
+    
+    
+    
+    
   ]
 
   // Constructor
