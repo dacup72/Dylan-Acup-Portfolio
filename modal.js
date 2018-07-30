@@ -190,6 +190,26 @@ window.onload = function () {
       liveUrl: "N/A",
       codeUrl: "https://github.com/dacup72/bamazon-storefront"
     },
+    {
+      name: "LIRI Bot",
+      image: "liriBot.png",
+      description: `LIRI Bot is a Node.js based application allowing users to access different API's through the terminal / git bash window.  
+        Users can do the following: enter a screen name into the "my-tweets" command to get access to specific tweets, enter a song title into the 
+        "spotify-this-song" command to search songs, enter a movie name into the "movie-this" command to search movies, or enter the command 
+        "do-what-it-says" to have the Node.js file system read a txt file and apply what every commmand is inside of theat files to the applications 
+        functionality.  The app makes use of the Spotify, Twitter, and OMDB APIs along with the ability to log your previous search results in a .txt 
+        file with Node.js FS.`,
+      shortDescription: "LIRI Bot is a Node.js application run in the terminal that allows you to interact with multiple awesome APIs like Twitter!",
+      frontEndTech: ["Javascript"],
+      BackEndTech: ["Node.js", "Node.js FS", "dotenv"],
+      otherTech: ["Twitter API", "OMDB API", "node-spotify-api", "Github"],
+      skillsLearned: ["Learned how to access and use multiple APIs in a backend based application", 
+        "Learned how to read and write to .txt files with Node.js File System", 
+        "Learned how to protect API keys and use environment variables"],
+      dateCreated: "December, 2017",
+      liveUrl: "N/A",
+      codeUrl: "https://github.com/dacup72/LIRI-Bot"
+    },
   ]
 
   // Constructor
