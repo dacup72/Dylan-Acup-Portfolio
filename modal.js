@@ -41,19 +41,21 @@
 window.onload = function () {
 
   const modalData = [
-    // {
-    //   name: "NYT Article Search",
-    //   image: "",
-    //   description: ``,
-    //   shortDescription: "",
-    //   frontEndTech: [],
-    //   BackEndTech: [],
-    //   otherTech: [],
-    //   skillsLearned: [],
-    //   dateCreated: "",
-    //   liveUrl: "",
-    //   codeUrl: ""
-    // },
+    {
+      name: "NYT Article Search",
+      image: "newYorkTimes.png",
+      description: `New York Time Article Search is a full-stack ReactJS application that uses the New York Times Article API to allow users to both 
+        search and saved articles.  The backend is run Node / Express and connects to MongoDB with Mongoose for the database.  Users can also view the 
+        source of the articles they searched for by clicking the view button on each article. `,
+      shortDescription: "Full-stack React.js app using the New York Times Article API with MongoDB to give users a great article search app!",
+      frontEndTech: ["HTML", "CSS", "Bootstrap", "Javascript", "JSX"],
+      BackEndTech: ["MongoDB", "Mongoose", "Node.js", "Express.js", "Axios"],
+      otherTech: ["GitHub", "New York Times Articles API"],
+      skillsLearned: ["Learned how to make all of the pieces of a full stack React app work together"],
+      dateCreated: "June, 2018",
+      liveUrl: "https://article-search-app-14.herokuapp.com/",
+      codeUrl: "https://github.com/dacup72/NYT-React-Search"
+    },
     {
       name: "Clicky Game",
       image: "clickyGame.png",
