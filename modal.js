@@ -129,7 +129,7 @@ window.onload = function () {
         "Learned how to interact with back end solely through Node.js",
         "Learned how to run SQL database on local machine"],
       dateCreated: "March, 2018",
-      liveUrl: "N/A",
+      liveUrl: "#",
       codeUrl: "https://github.com/dacup72/bamazon-storefront"
     },
     {
@@ -169,7 +169,7 @@ window.onload = function () {
         "Learned how to read and write to .txt files with Node.js File System",
         "Learned how to protect API keys and use environment variables"],
       dateCreated: "December, 2017",
-      liveUrl: "N/A",
+      liveUrl: "#",
       codeUrl: "https://github.com/dacup72/LIRI-Bot"
     },
 
