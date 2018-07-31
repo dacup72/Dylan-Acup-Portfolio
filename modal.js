@@ -41,6 +41,19 @@
 window.onload = function () {
 
   const modalData = [
+    // {
+    //   name: "NYT Article Search",
+    //   image: "",
+    //   description: ``,
+    //   shortDescription: "",
+    //   frontEndTech: [],
+    //   BackEndTech: [],
+    //   otherTech: [],
+    //   skillsLearned: [],
+    //   dateCreated: "",
+    //   liveUrl: "",
+    //   codeUrl: ""
+    // },
     {
       name: "Clicky Game",
       image: "clickyGame.png",
@@ -52,31 +65,31 @@ window.onload = function () {
       frontEndTech: ["Javascript", "CSS", "Bootstrap", "React.js"],
       BackEndTech: ["Node.js"],
       otherTech: ["Github", "Create-React-App", "Heroku Deployment"],
-      skillsLearned: ["Learned how to make use of state and prop updates for the game refresh", 
-        "Learned how to deploy React app on Heroku", 
-        "Learned how to create front end with JSX", 
+      skillsLearned: ["Learned how to make use of state and prop updates for the game refresh",
+        "Learned how to deploy React app on Heroku",
+        "Learned how to create front end with JSX",
         "Learned more about using keyframes with CSS"],
       dateCreated: "May, 2018 ",
       liveUrl: "https://clicky-game3.herokuapp.com/",
       codeUrl: "https://github.com/dacup72/Clicky-Game"
     },
-    {
-      name: "Flashcard Generator",
-      image: "flashcardGenerator.png",
-      description: `FlashCard-Generator is designed to be a web-based application that helps users to learn 
-        information in an interactive and fun manner. Users are required to sign up with a username and password 
-        so that their created cards can be saved and can be reviewed at their leisure.`,
-      shortDescription: "A flashcard generating app for studying that uses Firebase for database and authentication!",
-      frontEndTech: ["HTML", "CSS", "Bootstrap", "Animate CSS", "Javascript", "jQuery"],
-      BackEndTech: ["Firebase Database"],
-      otherTech: ["GitHub"],
-      skillsLearned: ["Learned how to use authentication with Firebase",
-        "Learned to store user data and display it based on login status",
-        "Learned how to use Animate CSS"],
-      dateCreated: "February 2018",
-      liveUrl: "https://dacup72.github.io/Flashcard-Generator/",
-      codeUrl: "https://github.com/dacup72/Flashcard-Generator"
-    },
+    // {
+    //   name: "Flashcard Generator",
+    //   image: "flashcardGenerator.png",
+    //   description: `FlashCard-Generator is designed to be a web-based application that helps users to learn 
+    //     information in an interactive and fun manner. Users are required to sign up with a username and password 
+    //     so that their created cards can be saved and can be reviewed at their leisure.`,
+    //   shortDescription: "A flashcard generating app for studying that uses Firebase for database and authentication!",
+    //   frontEndTech: ["HTML", "CSS", "Bootstrap", "Animate CSS", "Javascript", "jQuery"],
+    //   BackEndTech: ["Firebase Database"],
+    //   otherTech: ["GitHub"],
+    //   skillsLearned: ["Learned how to use authentication with Firebase",
+    //     "Learned to store user data and display it based on login status",
+    //     "Learned how to use Animate CSS"],
+    //   dateCreated: "February 2018",
+    //   liveUrl: "https://dacup72.github.io/Flashcard-Generator/",
+    //   codeUrl: "https://github.com/dacup72/Flashcard-Generator"
+    // },
     {
       name: "Eat The Burger",
       image: "eatTheBurger.png",
@@ -157,7 +170,7 @@ window.onload = function () {
       liveUrl: "N/A",
       codeUrl: "https://github.com/dacup72/LIRI-Bot"
     },
-    
+
     {
       name: "Crystal Collector",
       image: "crystalCollector.png",
@@ -230,10 +243,10 @@ window.onload = function () {
       liveUrl: "https://dacup72.github.io/trainScheduler/",
       codeUrl: "https://github.com/dacup72/trainScheduler"
     },
-    
-    
-    
-    
+
+
+
+
   ]
 
   // Constructor
