@@ -75,23 +75,23 @@ window.onload = function () {
       liveUrl: "https://clicky-game3.herokuapp.com/",
       codeUrl: "https://github.com/dacup72/Clicky-Game"
     },
-    // {
-    //   name: "Flashcard Generator",
-    //   image: "flashcardGenerator.png",
-    //   description: `FlashCard-Generator is designed to be a web-based application that helps users to learn 
-    //     information in an interactive and fun manner. Users are required to sign up with a username and password 
-    //     so that their created cards can be saved and can be reviewed at their leisure.`,
-    //   shortDescription: "A flashcard generating app for studying that uses Firebase for database and authentication!",
-    //   frontEndTech: ["HTML", "CSS", "Bootstrap", "Animate CSS", "Javascript", "jQuery"],
-    //   BackEndTech: ["Firebase Database"],
-    //   otherTech: ["GitHub"],
-    //   skillsLearned: ["Learned how to use authentication with Firebase",
-    //     "Learned to store user data and display it based on login status",
-    //     "Learned how to use Animate CSS"],
-    //   dateCreated: "February 2018",
-    //   liveUrl: "https://dacup72.github.io/Flashcard-Generator/",
-    //   codeUrl: "https://github.com/dacup72/Flashcard-Generator"
-    // },
+    {
+      name: "Flashcard Generator",
+      image: "flashcardGenerator.png",
+      description: `FlashCard-Generator is designed to be a web-based application that helps users to learn 
+        information in an interactive and fun manner. Users are required to sign up with a username and password 
+        so that their created cards can be saved and can be reviewed at their leisure.`,
+      shortDescription: "A flashcard generating app for studying that uses Firebase for database and authentication!",
+      frontEndTech: ["HTML", "CSS", "Bootstrap", "Animate CSS", "Javascript", "jQuery"],
+      BackEndTech: ["Firebase Database"],
+      otherTech: ["GitHub"],
+      skillsLearned: ["Learned how to use authentication with Firebase",
+        "Learned to store user data and display it based on login status",
+        "Learned how to use Animate CSS"],
+      dateCreated: "February 2018",
+      liveUrl: "https://dacup72.github.io/Flashcard-Generator/",
+      codeUrl: "https://github.com/dacup72/Flashcard-Generator"
+    },
     {
       name: "Eat The Burger",
       image: "eatTheBurger.png",
