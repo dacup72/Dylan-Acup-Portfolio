@@ -42,6 +42,28 @@ window.onload = function () {
 
   const modalData = [
     {
+      name: "Email Survey Manager",
+      image: "emailSurveyManager.png",
+      description: `Email Survey Manager is a full-stack React / Redux application allowing users to create and send mass email surveys to 
+        collect feedback results from recipients.  MongoDB / Mongoose are used to store data on the backend and authentication is done through 
+        Passport.js and Google OAuth.  In addition, I used Sendgrid API to send out emails to chosen recipients and webhooks to retrieve the 
+        reciepients responses through SendGrid.  In addition Stripe API is used for handling payments.  Modern ES6 syntax is used throughout 
+        the entire application and I have future plans to add more functionality including creating a better UI for creating custom survey emails 
+        and more useful statistics displays for survey recipient response data.`,
+      shortDescription: `Email Survey Manager is a full-stack React / Redux application allowing users to create and send mass email surveys to 
+        collect feedback results from recipients.`,
+      frontEndTech: ["Javascript", "Materialize", "CSS", "React.js", "Redux.js"],
+      BackEndTech: ["Node.js", "Express.js", "MongoDB", "Mongoose", "Axios"],
+      otherTech: ["Passport.js", "Google OAuth 2.0", "Cookie Session", "Stripe API", "SendGrid API", "GIT", "GitHub", "Heroku Deployment"],
+      skillsLearned: ["Learned how to use the redux with react for an advance javascript front end framework.",
+        "Learned how to make use of webhooks to retrieve data from SendGrid API",
+        "Learned how to use advanced ES6 concepts to make use of modren javascript",
+        "Learned how to handle secure user authentication along with secure hadling of payments by users"],
+      dateCreated: "August, 2018",
+      liveUrl: "https://emailsurveymanager.herokuapp.com/",
+      codeUrl: "https://github.com/dacup72/email-survey-manager"
+    },
+    {
       name: "NYT Article Search",
       image: "newYorkTimes.png",
       description: `New York Time Article Search is a full-stack ReactJS application that uses the New York Times Article API to allow users to both 
